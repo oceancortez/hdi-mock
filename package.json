@@ -1,0 +1,26 @@
+{
+  "name": "hdi-mock",
+  "version": "1.0.0",
+  "description": "Mock for Developers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oceancortez/hdi-mock.git"
+  },
+  "author": "oceancortez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oceancortez/hdi-mock/issues"
+  },
+  "homepage": "https://github.com/oceancortez/hdi-mock#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
