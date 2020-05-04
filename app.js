@@ -11,7 +11,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/brokerMock', brokerMock);
 
 app.use((req, res, next) => {
-    res.status(404).render('404', { pageTitle: 'Page Not Found', path: '/' });
+    if (req.path === '/400'){
+        res.status(400).send('<h3> BAD REQUEST </h3>');
+    } else {
+        res.status(404).send('<h3> PAGE NOT FOUND </h3>');
+    }
 });
 
 app.listen(3000);
