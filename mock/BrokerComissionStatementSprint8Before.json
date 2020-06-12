@@ -1,0 +1,98 @@
+{
+  "statementHeader" : {
+    "brokerCounterpartCode" : 983038,
+    "brokerRevenueServiceDocumentCode" : "49471386000109",
+    "partyName" : "WNF CORRETORA DE SEGUROS LTDA",
+    "partialCommissionIndicator" : true
+  },
+  "comissionStatement" : [ {
+    "receiptNumber" : 15700479,
+    "payment" : {
+      "statusCode" : "Em trânsito bancário",
+      "registryDate" : "2020-04-20",
+      "dispatchDate" : "2020-06-27",
+      "processingDate" : "2020-06-29",
+      "methodCode" : "Depósito em conta"
+    },
+    "brokerBankNumber" : 237,
+    "brokerBankBranchNumber" : "0065-5",
+    "brokerBankAccountNumber" : "0117141-0",
+    "grossValue" : 71.27,
+    "netValue" : 71.27,
+    "irrfValue" : 0,
+    "issValue" : 0,
+    "inssValue" : 0,
+    "saleDetails" : [ {
+      "counterpartBranchCode" : 101,
+      "counterpartBranchName" : "FILIAL SAO PAULO",
+      "contractingPartyCode" : 57513,
+      "contractingPartyName" : "LC LOCACAO DE BENS EIRELI ",
+      "subcontractingPartyCode" : 0,
+      "subcontractingPartyName" : "LC LOCACAO DE BENS EIRELI ",
+      "regulatingAgencyInsurerCode" : 548,
+      "regulatingAgencyInsurerName" : "HDI",
+      "regulatingAgencyLineNumber" : 93,
+      "counterpartPolicyNumber" : 93703298,
+      "counterpartProductCode" : 467,
+      "counterpartProductName" : "CAPITAL GLOBAL HDI",
+      "installments" : [ {
+        "counterpartInvoiceNumber" : 4,
+        "counterpartInvoiceIssueDate" : "04/2020",
+        "proposalCode" : 57513,
+        "number" : 4,
+        "baseValue" : 356.37,
+        "iofValue" : 1.35,
+        "totalValue" : 357.72,
+        "comissions" : [ {
+          "coverageGroupCode" : "VG",
+          "typeCode" : "Corretagem",
+          "baseValue" : 356.37,
+          "percentage" : 20,
+          "totalValue" : -71.27,
+          "paymentTypeCode" : "Pagamento de Comissão de Corretagem",
+          "postDate" : "2020-04-17",
+          "registryDate" : "2020-04-17",
+          "scheduleDate" : "2020-05-27"
+        } ]
+      }, {
+        "counterpartInvoiceNumber" : 6,
+        "counterpartInvoiceIssueDate" : "04/2020",
+        "proposalCode" : 57513,
+        "number" : 4,
+        "baseValue" : 356.37,
+        "iofValue" : 1.35,
+        "totalValue" : 357.72,
+        "comissions" : [ {
+          "coverageGroupCode" : "VG",
+          "typeCode" : "Corretagem",
+          "baseValue" : 356.37,
+          "percentage" : 20,
+          "totalValue" : 71.27,
+          "paymentTypeCode" : "Pagamento de Comissão de Corretagem",
+          "postDate" : "2020-04-20",
+          "registryDate" : "2020-04-20",
+          "scheduleDate" : "2020-05-27"
+        } ]
+      }, {
+        "counterpartInvoiceNumber" : 7,
+        "counterpartInvoiceIssueDate" : "05/2020",
+        "proposalCode" : 57513,
+        "number" : 5,
+        "baseValue" : 356.37,
+        "iofValue" : 1.35,
+        "totalValue" : 357.72,
+        "comissions" : [ {
+          "coverageGroupCode" : "VG",
+          "typeCode" : "Corretagem",
+          "baseValue" : 356.37,
+          "percentage" : 20,
+          "totalValue" : 71.27,
+          "paymentTypeCode" : "Pagamento de Comissão de Corretagem",
+          "postDate" : "2020-04-20",
+          "registryDate" : "2020-04-20",
+          "scheduleDate" : "2020-06-27"
+        } ]
+      } ]
+    } ]
+  } ]
+}
